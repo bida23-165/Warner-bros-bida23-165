@@ -1,0 +1,28 @@
+body{
+        font-family: Arial, sans-serif;
+        font-size: large;
+        margin: 0;
+        padding: 0;
+        background-color: #8c9497;
+        float: none;
+      }
+    
+header {
+        background-color: #ac6a6a;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+      }
+
+h1{
+    color: rgb(0, 0, 0);
+}
+
+.Navigation-menu {
+    float: none;
+	display: flex;
+    font-size: large;
+	list-style: none;
+	justify-content: space-around;
+	/* or inline-flex */
+}

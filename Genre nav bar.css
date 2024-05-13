@@ -1,0 +1,40 @@
+body{
+    
+    nav.hidden-nav {
+        position: absolute;
+        top: 200px;
+        left: -200px; 
+        width: 200px;
+        height: 100%;
+        transition: left 0.3s ease;
+        
+    }
+    nav.hidden-nav ul {
+        list-style-type: none;
+        padding: 20px;
+        background-color: #773939;
+        margin: 0;
+    }
+    nav.hidden-nav li {
+        margin-bottom: 50px;
+    }
+    nav.hidden-nav a {
+        color: blue;
+        overlay: auto;
+        display: block;
+        text-decoration: solid;
+    }
+    nav.hidden-nav a:hover {
+        text-decoration: underline;
+    }
+    
+    .toggle-btn {
+        position: absolute;
+        top: 90px;
+        left: 10px;
+        cursor: pointer;
+        color: #0e0606;
+        font-size: 30px;
+
+   }  
+}
